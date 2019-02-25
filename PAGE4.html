@@ -1,0 +1,240 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	
+	body {
+			background-color: #C0C0C0;
+			font-family: Georgia;
+			color: #000080;
+			text-align: center;
+			
+}
+
+	.column {
+		float: left;
+		width: 20%;
+		text-align: center;
+}
+
+	.paraleft {
+		text-align: left;
+}
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+}
+	img.resize {
+		width: 222px;
+		height: 296px;
+}
+	img.resize2 {
+		width: 296px;
+		height: 296px;
+}
+	h1 {
+			color: #B22222;
+			font-size: 72px;
+}
+	a  {
+		color: #B22222;
+		background-color: "000000"
+		text-align: right;
+	a  {
+		
+}
+	.clock {
+			color: #FF0000;
+			font-size: 60px;
+			letter-spacing: 7px;
+}
+	.center {
+			text-align: center;
+}
+</style>
+	<link 
+		rel="icon" 
+		type="image/png" 
+		href="data:image/png;base64,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" />
+	<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+	<meta name="ProgId" content="FrontPage.Editor.Document">
+	<title>ROOBOTS</title>
+</head>
+<body>
+		<h1>
+			Roobots
+		</h1>
+		<div class="row">
+			<div class="column">
+				<div id="ClockDisplay" class="clock"></div>
+			</div>
+			<div class="column">
+				
+<script>
+monthnames = new Array(
+"January",
+"Februrary",
+"March",
+"April",
+"May",
+"June",
+"July",
+"August",
+"September",
+"October",
+"November",
+"Decemeber");
+var linkcount=0;
+function addlink(month, day, href) {
+var entry = new Array(3);
+entry[0] = month;
+entry[1] = day;
+entry[2] = href;
+this[linkcount++] = entry;
+}
+Array.prototype.addlink = addlink;
+linkdays = new Array();
+monthdays = new Array(12);
+monthdays[0]=31;
+monthdays[1]=28;
+monthdays[2]=31;
+monthdays[3]=30;
+monthdays[4]=31;
+monthdays[5]=30;
+monthdays[6]=31;
+monthdays[7]=31;
+monthdays[8]=30;
+monthdays[9]=31;
+monthdays[10]=30;
+monthdays[11]=31;
+todayDate=new Date();
+thisday=todayDate.getDay();
+thismonth=todayDate.getMonth();
+thisdate=todayDate.getDate();
+thisyear=todayDate.getYear();
+thisyear = thisyear % 100;
+thisyear = ((thisyear < 50) ? (2000 + thisyear) : (1900 + thisyear));
+if (((thisyear % 4 == 0) 
+&& !(thisyear % 100 == 0))
+||(thisyear % 400 == 0)) monthdays[1]++;
+startspaces=thisdate;
+while (startspaces > 7) startspaces-=7;
+startspaces = thisday - startspaces + 1;
+if (startspaces < 0) startspaces+=7;
+document.write("<table border=2 bgcolor=white ");
+document.write("bordercolor=black><font color=black>");
+document.write("<tr><td colspan=7><center><strong>" 
++ monthnames[thismonth] + " " + thisyear 
++ "</strong></center></font></td></tr>");
+document.write("<tr>");
+document.write("<td align=center>Su</td>");
+document.write("<td align=center>M</td>");
+document.write("<td align=center>Tu</td>");
+document.write("<td align=center>W</td>");
+document.write("<td align=center>Th</td>");
+document.write("<td align=center>F</td>");
+document.write("<td align=center>Sa</td>"); 
+document.write("</tr>");
+document.write("<tr>");
+for (s=0;s<startspaces;s++) {
+document.write("<td> </td>");
+}
+count=1;
+while (count <= monthdays[thismonth]) {
+for (b = startspaces;b<7;b++) {
+linktrue=false;
+document.write("<td>");
+for (c=0;c<linkdays.length;c++) {
+if (linkdays[c] != null) {
+if ((linkdays[c][0]==thismonth + 1) && (linkdays[c][1]==count)) {
+document.write("<a href=\"" + linkdays[c][2] + "\">");
+linktrue=true;
+      }
+   }
+}
+if (count==thisdate) {
+document.write("<font color='FF0000'><strong>");
+}
+if (count <= monthdays[thismonth]) {
+document.write(count);
+}
+else {
+document.write(" ");
+}
+if (count==thisdate) {
+document.write("</strong></font>");
+}
+if (linktrue)
+document.write("</a>");
+document.write("</td>");
+count++;
+}
+document.write("</tr>");
+document.write("<tr>");
+startspaces=0;
+}
+document.write("</table></p>");
+</script>
+</div>
+</div>		
+			<p>		
+		<div class="row">
+		<div class="center" >
+			<div class="column">
+				<a href="index.html" title="GOHOME">
+					HOMEPAGE
+				</a>
+			</div>
+			<div class="column">
+				<a href="PAGE1.html" title="Professional Work and Portfolio">
+					PROFESSIONAL WORK
+				</a>
+			</div>
+			<div class="column">
+				<a href="PAGE2.html" title="WATCHLIST">
+					WATCH LIST
+				</a>
+			</div>
+			<div class="column">
+				<a href="PAGE3.html" title="ANCEST0RS">
+					ANCESTRY
+				</a>
+			</div>
+			
+		</div>
+		</div>
+	</p>
+<script>	
+		function showTime(){
+		var date = new Date();
+		var h = date.getHours(); 
+		var m = date.getMinutes(); 
+		var s = date.getSeconds(); 
+		var session = "AM";
+    
+		if(h == 0){
+        h = 12;
+		}
+    
+		if(h > 12){
+			h = h - 12;
+			session = "PM";
+		}
+    
+		h = (h < 10) ? "0" + h : h;
+		m = (m < 10) ? "0" + m : m;
+		s = (s < 10) ? "0" + s : s;
+    
+		var time = h + ":" + m + ":" + s + " " + session;
+		document.getElementById("ClockDisplay").innerText = time;
+		document.getElementById("ClockDisplay").textContent = time;
+    
+		setTimeout(showTime, 1000);
+    
+		}
+		showTime();
+</script>
+</body>
+</HTML>
