@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|ZCOOL+QingKe+HuangYou');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	color: maroon;
+	background-color: gainsboro;
+	text-align: center-left;
+			
+}
+	.paraleft {
+		text-align: left;
+}
+	.column {
+		float: left;
+		width: 25%;
+		text-align: center;
+}
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+}
+	img.resize {
+		width: 222px;
+		height: 296px;
+}
+	img.resize2 {
+		width: 296px;
+		height: 296px;
+}
+	h1 {
+			color: #B22222;
+			font-size: 72px;
+			background-image: url("https://media.istockphoto.com/vectors/horizontal-banner-camouflage-seamless-pattern-background-classic-vector-id846506400?k=6&m=846506400&s=612x612&w=0&h=xhUKR2FohWtKMWxGBbBBCwI6o_mNzCvCFc-wJPhQjCw=");
+}
+	a  {
+		color: #B22222;
+		background-color: "000000"
+		text-align: right;
+	a  {
+		
+}

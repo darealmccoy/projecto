@@ -1,3 +1,2 @@
-# projecto
-Vague Description, described vaguely 
-https://darealmccoy.github.io/projecto/
+# procotr
+Second Sector of HTML. Finally Add some CSS to this!!!
